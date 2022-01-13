@@ -6,11 +6,11 @@ it('should render a team’s detail page', async () => {
   // MemoryRouter is needed because <Team> uses the <Link> component
   const { container } = render(
     <MemoryRouter>
-      <Team match={{ params: { id: 1 } }} />
+      <Team match={{ params: { id: 3 } }} />
     </MemoryRouter>
   );
   screen.getByLabelText(/loading/);
-  await screen.findAllByText(/Rip City Kickers/);
+  await screen.findAllByText(/Lakeville Thunderfoots/);
 
   expect(container).toMatchSnapshot();
 });
