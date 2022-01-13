@@ -9,19 +9,19 @@ exports[`should render a team’s detail page 1`] = `
   </a>
    » 
   <span>
-    Rip City Kickers
+    Lakeville Thunderfoots
   </span>
   <h1>
-    Rip City Kickers
+    Lakeville Thunderfoots
   </h1>
   <p>
-    Portland
+    Lake Oswego
     , 
     OR
   </p>
   <p>
     <a
-      href="/teams/1/edit"
+      href="/teams/3/edit"
     >
       Edit Team
     </a>

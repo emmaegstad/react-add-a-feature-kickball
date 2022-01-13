@@ -10,7 +10,7 @@ it('should render a list of teams', async () => {
     </MemoryRouter>
   );
   screen.getByLabelText(/loading/);
-  await screen.findByText(/Lakeville Thunderfootsw/);
+  await screen.findByText(/Lakeville Thunderfoots/);
 
   expect(container).toMatchSnapshot();
 });
